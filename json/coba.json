@@ -1,0 +1,28 @@
+[
+{
+    "nama":"Frizy Oktario",
+    "umur": 21,
+    "nim": "2217020078",
+    "lulus": true,
+    "hobby":[
+        "coding",
+        "gaming",
+        "reading"
+    ],
+    "pembimbing": {
+        "pembimbing1": "Haditya Prasetyo",
+        "pembimbing2": "Raju Wandira"
+    } 
+},
+{
+  "nama": "Frizy Oktario",
+  "umur": 21,
+  "nim": "2217020078",
+  "lulus": true,
+  "hobby": ["coding", "gaming", "reading"],
+  "pembimbing": {
+    "pembimbing1": "Haditya Prasetyo",
+    "pembimbing2": "Raju Wandira"
+  }
+}
+]
