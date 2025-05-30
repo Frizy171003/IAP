@@ -1,0 +1,89 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.badge {
+    margin-left: 3px;
+}
+
+body {
+    margin-top: 50px;
+}
+
+.jumbotron img {
+    width: 25%;
+}
+
+section {
+    min-height: 420px;
+}
+
+footer {
+    min-height: 50px;
+    padding-top:12px;
+}
+
+.ig-thumbnail {
+    width: 120px;
+    height: 120px;
+    float: left;
+    overflow: hidden;
+}
+
+.ig-thumbnail img {
+    width: 100px;
+}
+
+.navbar{
+    margin-top: -2.5rem;
+}
+
+/* About Me Section */
+.about {
+    padding: 80px 0;
+    background: #f9fafb;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about h2::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 4px;
+    background-color: #2563eb;
+    bottom: -10px;
+    left: 20%;
+    border-radius: 2px;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #334155;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .about p:hover {
+    transform: translateY(-5px);
+  }
+  
+  @media (max-width: 768px) {
+    .about p {
+      margin-bottom: 20px;
+    }
+  }
+  
+
