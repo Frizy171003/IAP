@@ -31,9 +31,9 @@
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="<?= base_url(); ?>home">Home
             <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#about">About Me</a>
+          <a class="nav-item nav-link" href="<?= base_url(); ?>home#about">About Me</a>
           <a class="nav-item nav-link" href="<?= base_url(); ?>mahasiswa">Mahasiswa</a>
-          <a class="nav-item nav-link" href="#portfolio">My Project</a>
+          <a class="nav-item nav-link" href="<?= base_url(); ?>home#portfolio">My Project</a>
         </div>
       </div>
     </div>
